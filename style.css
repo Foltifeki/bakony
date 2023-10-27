@@ -64,6 +64,16 @@ nav {
     max-width: 25%;
 }
 
+.btext {
+    flex: 50%;
+    padding: 20px;
+}
+
+.btext p {
+    text-align: justify;
+    margin: 12px 0;
+}
+
 @media (max-width: 960px) {
     section {
         flex-wrap: wrap;
