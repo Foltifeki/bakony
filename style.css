@@ -1,3 +1,58 @@
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+main {
+    width: 70%;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+header, footer {
+    text-align: center;
+    color: beige;
+    background-image: linear-gradient(green, black);
+}
+
+header {
+    height: 60px;
+    line-height: 60px;
+}
+
+footer {
+    height: 40px;
+    line-height: 40px;
+}
+
+section {
+    padding: 20px;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 3px 0;
+}
+
+.menu a {
+    flex: 25%;
+    height: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    color: beige;
+    background-image: linear-gradient(green, black);
+    text-align: center;
+}
+
+.menu a:hover {
+    color: black;
+    background-image: linear-gradient(green, yellowgreen);
 }
