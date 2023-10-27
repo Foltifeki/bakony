@@ -28,6 +28,8 @@ footer {
 
 section {
     padding: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .img {
@@ -55,4 +57,31 @@ nav {
 .menu a:hover {
     color: black;
     background-image: linear-gradient(green, yellowgreen);
+}
+
+.img2 {
+    flex: 25%;
+    max-width: 25%;
+}
+
+@media (max-width: 960px) {
+    section {
+        flex-wrap: wrap;
+    }
+    .img2 {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 720px) {
+    nav {
+        flex-direction: column;
+    }
+    section {
+        flex-direction: column;
+    }
+    .img2 {
+        max-width: 100%;
+    }
 }
